@@ -4,18 +4,18 @@ import { profile } from "../data";
 const FORM_ENDPOINT = "https://formspree.io/f/xovkqoab";
 
 export default function Contact() {
-  const [name, setName]   = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [msg, setMsg]     = useState("");
+  const [msg, setMsg] = useState("");
   const [loading, setLoading] = useState(false);
-  const [sent, setSent]   = useState(null);
+  const [sent, setSent] = useState(null);
 
   const socials = useMemo(() => {
     const map = {};
     (profile.socials || []).forEach((s) => (map[s.label?.toLowerCase()] = s.href));
     return {
-      instagram: map["instagram"] || "https://instagram.com/",
-      linkedin : map["linkedin"]  || "https://linkedin.com/",
+      instagram: map["instagram"] || "https://www.instagram.com/wandy_20lim/",
+      linkedin : map["linkedin"] || "https://www.linkedin.com/in/wandy-reynand-lim-0b491b384/",
     };
   }, []);
 
