@@ -26,21 +26,22 @@ export default function About() {
         <p className="mt-4 text-white/70 leading-relaxed max-w-2xl">
           As an undergraduate <span className="text-cyan-400 font-bold">Computer Science</span>
           {" "}student at <span className="text-cyan-400 font-bold">BINUS University – Alam Sutera</span>, 
-          I am passionate about coding, intelligent systems, and technology. With over two years of
-          academic and hands-on experience, I have gained proficiency in
-          {" "}<span className="text-cyan-300 font-bold">C, Python, Java, HTML, CSS, React, and MySQL</span>.
+          I focus on building reliable backend systems and full-stack applications. I have hands-on
+          experience with{" "}
+          <span className="text-cyan-300 font-bold">Go, TypeScript, JavaScript, Python, PostgreSQL, React, and Next.js</span>,
+          and I'm currently applying automation and data analysis skills in a data analyst internship.
         </p>
         
         <p className="mt-4 text-white/70 leading-relaxed max-w-2xl">
           Beyond academics, I actively engage in nonprofit campus organizations, where I develop skills in
-          teamwork, communication, and project management. My goal is to create meaningful solutions that bring
-          real value to society while continuously learning and growing with purpose.
+          teamwork, communication, and project management. My focus right now is building production-ready
+          backend systems — from designing concurrency-safe APIs to deploying full-stack applications end to end.
         </p>
 
         <div className="mt-8 grid grid-cols-3 gap-4">
-          <Stat value="3+" label="Years of Coding" />
-          <Stat value="5+" label="Programming Languages" />
-          <Stat value="10+" label="AI Models Trained" />
+          <Stat value="3+" label="Full-Stack Projects" />
+          <Stat value="2" label="Deployed Live Apps" />
+          <Stat value="5+" label="Languages & Frameworks" />
         </div>
       </div>
     </div>

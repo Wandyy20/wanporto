@@ -17,7 +17,7 @@ export default function Projects() {
       </div>
 
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {(projects ?? []).slice(0, 5).map((p, i) => (
+        {(projects ?? []).slice(0, 6).map((p, i) => (
           <article
             key={i}
             className="group rounded-2xl border border-white/10 bg-white/5 p-5 

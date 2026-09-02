@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { profile } from "../data";
 import profilePic from "../assets/profile.jpg";
-import cvFile from "../assets/CV-Wandy Reynand Lim.pdf";
+import cvFile from "../assets/CV-Wandy Reynand Lim-new.pdf";
 import Typewriter from "./Typewriter";
 
 export default function Home() {
@@ -78,14 +78,13 @@ export default function Home() {
                     </h1>
 
                     <p className="mt-6 text-white/80 max-w-xl leading-relaxed">
-                        I’m an undergraduate{" "}
+                        I'm an undergraduate{" "}
                         <span className="text-cyan-400 font-bold">Computer Science</span> student at{" "}
-                        <span className="text-cyan-400 font-bold">BINUS University – Alam Sutera</span>, deeply
-                        interested in Intelligent Systems. I love experimenting, building, and learning
-                        through real projects that challenge my creativity. My goal is to design
-                        intelligent technologies that are both innovative and impactful.
+                        <span className="text-cyan-400 font-bold">BINUS University – Alam Sutera</span>. I love
+                        building reliable software — from designing concurrency-safe backend systems to shipping
+                        full-stack applications end to end. I'm currently focused on backend engineering, with
+                        growing interest in how intelligent systems fit into real-world products.
                     </p>
-
                     <div className="mt-8 flex gap-3">
                         <a href="#projects" 
                             className="px-4 py-3 rounded-xl bg-cyan-400/90 text-slate-950 font-semibold transition hover:bg-cyan-300 hover:shadow-lg hover:shadow-cyan-400/20"
