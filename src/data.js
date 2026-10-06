@@ -3,6 +3,7 @@ import Cateringz from "./assets/Cateringz.jpg";
 import AutoCare from "./assets/AutoCare.jpg"
 import CareerScope from "./assets/CareerScope.jpg"
 import TicketBooking from "./assets/TicketBooking.png"
+import JobQueue from "./assets/JobQueue.png"
 import FashionStore from "./assets/FashionStore.png"
 
 export const profile = {
@@ -88,5 +89,12 @@ export const projects = [
     img: Cateringz,
     href: "https://github.com/Wandyy20/CAteriNgz.git",
     tags: ["HTML", "CSS", "JavaScript"]
-  }
+  },
+  {
+    title: "Job Queue Service",
+    desc: "Production-grade background job system with a worker pool and PostgreSQL-backed queue, guaranteeing exactly-once execution via SELECT ... FOR UPDATE SKIP LOCKED. Supports 9 job types (webhooks, Gemini AI text processing, PDF/CSV generation, and a self-fine-tuned IndoBERT hate speech classifier), with exponential-backoff retries, dead-letter handling, and self-healing recovery from crashed workers. Includes a real-time React dashboard.",
+    img: JobQueue,
+    href: "https://job-queue-eta.vercel.app/",
+    tags: ["Go", "PostgreSQL", "React", "Chi", "Docker"]
+  },
 ];
